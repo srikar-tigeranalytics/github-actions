@@ -23,5 +23,6 @@ class TestTextAnalyzer(unittest.TestCase):
     self.assertEqual(most_common_word("apple banana apple orange"), "apple")
     self.assertEqual(most_common_word(""), "")
 
+
 if __name__ == '__main__':
   unittest.main()
